@@ -13,7 +13,7 @@
 length=(int(input('Введи количество арбузов: ')))
 list=[]
 for i in range(length):
-    list.append(int(input('Введи вес арбуза: ')))
+    list.append(int(input('Введи вес арбуза: '))) #заполняем список данными с клавиатуры 
 print('Максимальный вес = ', max(list))
 print('Минимальный вес = ', min(list))
 
