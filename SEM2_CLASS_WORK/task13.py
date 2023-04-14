@@ -18,14 +18,14 @@
 
 
 length = int(input("Количество дней: "))
-mx = 0
-current = 0
+mx = 0 #максимальная температура
+current = 0 #счетчик лней >0 
 for i in range(length):
     temp = int(input("Температура: "))
     if temp > 0:
         current += 1
-        mx=current
-    elif mx<current:
-        mx=current
+    else:
         current=0
-print(f"max: {mx}")
+    if mx<current:
+        mx=current
+print(f"Максимальная продолжительность оттепели: {mx}")
