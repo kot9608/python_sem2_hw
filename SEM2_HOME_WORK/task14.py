@@ -14,3 +14,20 @@ else:
    while 2**i<max:
     print(2**i)
     i=i+1
+
+
+# right_side = int(input('right side: '))
+# degree = 0
+# nums = []
+# while 2**degree <= right_side:
+# nums.append(2**degree)
+# degree += 1
+# print(nums)
+
+# right_side = int(input('right side: '))
+# degree = 0
+# nums = {}
+# while 2**degree <= right_side:
+# nums[degree] = 2**degree
+# degree += 1
+# print(nums)
