@@ -7,7 +7,7 @@
 
 max=int(input('Введи число: '))
 
-i=1#счётчик
+i=0#счётчик
 if max==0 or max==1:
   print('NULL')
 else:
